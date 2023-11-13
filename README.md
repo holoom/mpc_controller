@@ -10,7 +10,7 @@ Follow these steps to run the ROS package:
    roslaunch mpc_controller mpc.node
 5. Run the planner in RViz
 
-Alternatively, use the launch file for automated setup:
+Alternatively, use the new launch file for automated setup:
 
 - `roslaunch mpc_controller mpc.launch gazebo_gui:=true world_file:=<path_to_world_file>`
 
